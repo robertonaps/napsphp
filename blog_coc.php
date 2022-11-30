@@ -6,57 +6,68 @@ include_once 'include/header.php';
 
 
 <section class="blogcoc">
-  <div class="container">
-    <h2 class="h-blog-coc">CLASH OF CLANS</h2>
 
-    <!-- popup videos -->
+<div class="container">
 
-    <div class="displayvideo" id="video-view"></div>
+  <div class="vidcontainer-coc">
 
-    <!-- popup videos -->
+    <iframe class="vidframecoc" id="vidframe" src="http://www.youtube.com/embed?listType=playlist&list=PLuXu1OfZRezb--eQt5HNmRrV9tq5FyybS&autoplay=1">
+    </iframe>
 
-    <h2 class="h-tittle-coc">VIDEOS</h2>
-    <div class="video-categorylink-coc">
+  </div>
 
 
+  <div class="playlist">
 
-      <div>
-        <img src="css/image/cocthumbnail/20221114_104409coc6.jpg" alt="" class="thumbnail">
-        <a class="popupcoc" href="#video-view" data-link="https://www.youtube.com/embed/hoKUOz9xykY?enablejsapi=1" data-title="Using Dragon can get 3s base th11?">Using Dragon can get 3s base th11?</a>
-      </div>
-
+    <div class="vidlistcontainer">
 
       <div>
-        <img src="css/image/cocthumbnail/20221113_214028coc5.jpg" alt="" class="thumbnail">
-        <a class="popupcoc" href="#video-view" data-link="https://www.youtube.com/embed/2TQJxqn31Tc?enablejsapi=1" data-title="Coc , 2nd attack clan war (clearing)">Coc , 2nd attack clan war (clearing)</a>
-      </div>
-
-
-
-      <div>
-        <img src="css/image/cocthumbnail/20221113_104738coc4.jpg" alt="" class="thumbnail">
-        <a class="popupcoc" href="#video-view" data-link="https://www.youtube.com/embed/fLf1LAdQOOY?enablejsapi=1" data-title="Clan War , clash of clan">Clan War , clash of clan</a>
-      </div>
-
-
-      <div>
-        <img src="css/image/cocthumbnail/20221112_183506coc3.jpg" alt="" class="thumbnail">
-        <a class="popupcoc" href="#video-view" data-link="https://www.youtube.com/embed/3nxz8IQL2eY?enablejsapi=1" data-title="Gowitchpekka can get 3star base th11?">Gowitchpekka can get 3star base th11?</a>
-      </div>
-
-
-
-
-
-      <div>
-        <img src="css/image/cocthumbnail/20221112_131931coc2.jpg" alt="" class="thumbnail">
-        <a class="popupcoc" href="#video-view" data-link="https://www.youtube.com/embed/CL08tTIeBwE?enablejsapi=1" data-title="Clan capital  Raid">Clan capital Raid</a>
+        <a class="popupvidcoc" href="#vidframe" onClick="document.getElementById('vidframe').src='https://youtube.com/embed/cl9OJP1_yVw?autoplay=0'">
+          <img class="vidthumbsz" src="https://img.youtube.com/vi/cl9OJP1_yVw/hqdefault.jpg" />
+          first video clash of clans i played.
+        </a>
       </div>
 
       <div>
-        <img src="css/image/cocthumbnail/315291404_3328678780744883_2345671020282992150_ncoc.jpg" alt="" class="thumbnail">
-        <a class="popupcoc" href="#video-view" data-link="https://www.youtube.com/embed/cl9OJP1_yVw?enablejsapi=1" data-title="first video  clash of clans i played.">first video clash of clans i played.</a>
+        <a class="popupvidcoc" href="#vidframe" onClick="document.getElementById('vidframe').src='https://youtube.com/embed/CL08tTIeBwE?autoplay=0'">
+          <img class="vidthumbsz" src="https://img.youtube.com/vi/CL08tTIeBwE/hqdefault.jpg" />
+          Clan capital Raid
+
+        </a>
       </div>
+
+      <div>
+        <a class="popupvidcoc" href="#vidframe" onClick="document.getElementById('vidframe').src='https://youtube.com/embed/3nxz8IQL2eY?autoplay=0'">
+          <img class="vidthumbsz" src="https://img.youtube.com/vi/3nxz8IQL2eY/hqdefault.jpg" />
+          Gowitchpekka can get 3star base th11?
+
+        </a>
+      </div>
+
+      <div>
+        <a class="popupvidcoc" href="#vidframe" onClick="document.getElementById('vidframe').src='https://youtube.com/embed/fLf1LAdQOOY?autoplay=0'">
+          <img class="vidthumbsz" src="https://img.youtube.com/vi/fLf1LAdQOOY/hqdefault.jpg" />
+          Clan War , clash of clan
+
+        </a>
+      </div>
+
+      <div>
+        <a class="popupvidcoc" href="#vidframe" onClick="document.getElementById('vidframe').src='https://youtube.com/embed/2TQJxqn31Tc?autoplay=0'">
+          <img class="vidthumbsz" src="https://img.youtube.com/vi/2TQJxqn31Tc/hqdefault.jpg" />
+          Coc , 2nd attack clan war (clearing)
+
+        </a>
+      </div>
+
+      <div>
+        <a class="popupvidcoc" href="#vidframe" onClick="document.getElementById('vidframe').src='https://youtube.com/embed/hoKUOz9xykY?autoplay=0'">
+          <img class="vidthumbsz" src="https://img.youtube.com/vi/hoKUOz9xykY/hqdefault.jpg" />
+          Using Dragon can get 3s base th11?
+
+        </a>
+      </div>
+
 
 
 
@@ -65,7 +76,13 @@ include_once 'include/header.php';
     </div>
 
   </div>
+</div>
+
 </section>
+
+
+
+
 
 <script src="js/blogvid_coc.js"></script>
 <?php

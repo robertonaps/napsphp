@@ -4,53 +4,65 @@ include_once 'include/header.php';
 
 ?>
 
-    <!--section 2-->
+<!--section 2-->
 
-    <section class="blogavakin">
-      <div class="container">
-        <h2 class="h-blog-avakin">AVAKIN LIFE</h2>
+<section class="blogavakin">
 
-        <!-- popup videos -->
+  <div class="container">
 
-        <div class="displayvideo" id="video-view"></div>
+    <div class="vidcontainer-avakin">
 
-        <!-- popup videos -->
+      <iframe class="vidframeavakin" id="vidframe" src="http://www.youtube.com/embed?listType=playlist&list=PLuXu1OfZRezYsggx71Mm3TOeaRQaflr1_&autoplay=1">
+      </iframe>
 
-        <h2 class="h-tittle-avakin">VIDEOS</h2>
-        <div class="video-categorylink-avakin">
-            
-        
-        
-          <div>
-            <img src="css/image/avakinthumbnail/20221115_134224avakin2.jpg" alt="" class="thumbnail">  
-            <a
-            class="popupavakin"
-            href="#video-view"
-            data-link="https://www.youtube.com/embed/Ut1CVz0Ys3Q?enablejsapi=1"
-            data-title="Avakin life  customize char"
-            >Avakin life  customize char</a>
-          </div>
-        
-          <div>
-            <img src="css/image/avakinthumbnail/20221114_222228.jpg" alt="" class="thumbnail">  
-            <a
-            class="popupavakin"
-            href="#video-view"
-            data-link="https://www.youtube.com/embed/VFmPlqzWtUM?enablejsapi=1"
-            data-title="Avakin Life"
-            >Avakin Life</a>
-          </div>
- 
+    </div>
+
+
+    <div class="playlist">
+
+      <div class="vidlistcontainer">
+
+        <div>
+          <a class="popupvidavakin" href="#vidframe" onClick="document.getElementById('vidframe').src='https://youtube.com/embed/Ut1CVz0Ys3Q?autoplay=0'">
+            <img class="vidthumbsz" src="https://img.youtube.com/vi/Ut1CVz0Ys3Q/hqdefault.jpg" />
+            Avakin life customize char
+          </a>
         </div>
 
+
+
+        <div>
+          <a class="popupvidavakin" href="#vidframe" onClick="document.getElementById('vidframe').src='https://youtube.com/embed/VFmPlqzWtUM?autoplay=0'">
+            <img class="vidthumbsz" src="https://img.youtube.com/vi/VFmPlqzWtUM/hqdefault.jpg" />
+            Avakin life
+          </a>
+        </div>
+
+        
+
       </div>
-    </section>
 
-    <!---endimagegame-->
 
-    <script src="js/blogvid_avakin.js"></script>
-    <?php
-    include_once 'include/footer.php';
-    ?>
 
-    
+    </div>
+
+
+
+
+  </div>
+
+
+
+
+
+
+
+
+</section>
+
+<!---endimagegame-->
+
+<script src="js/blogvid_avakin.js"></script>
+<?php
+include_once 'include/footer.php';
+?>

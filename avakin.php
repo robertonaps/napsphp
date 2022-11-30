@@ -75,7 +75,7 @@ Begin your 🚀adventure. 🚀
 
         </div> 
     </section>
-
+    
     <script src="js/avakin.js"></script>
     <?php
     include_once 'include/footer.php';
